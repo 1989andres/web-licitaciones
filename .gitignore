@@ -1,0 +1,4 @@
+#archivos y carpetas a ignorar
+
+.env
+#carpeta/
