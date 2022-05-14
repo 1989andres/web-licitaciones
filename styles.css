@@ -29,4 +29,6 @@
 .tabla {
     margin: 30px;
     padding: 5px 5px 5px 5px;
+    border: 1px solid black;
+    text-align: center;
 }
