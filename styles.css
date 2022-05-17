@@ -5,7 +5,7 @@
     background-color: #16a9bd;
     font-size: 17px;
     color: #3f110eea;
-    margin: 30px;
+    margin: 0px 30px 0px 30px;;
     padding: 10px 20px 10px 20px;
     text-align: center;
     font-style: italic;
@@ -14,21 +14,27 @@
 #footer {
     background-color: #16a9bd;
     color: #3f110eea;
-    margin: 30px;
+    margin: 0px 30px 0px 30px;
     padding: 10px 20px 10px 20px;
     font-size: 10px;
 }
 
 .links {
-    margin: 30px;
+    margin: 0px 30px 0px 30px;;
     padding: 5px 5px 5px 5px;
-    background-color: bisque;
+    color: #000000;
     text-align: center;
 }
 
-.tabla {
-    margin: 30px;
+/*.tabla {
+    margin: 30px 30px 30px 30px;;
     padding: 5px 5px 5px 5px;
     border: 1px solid black;
     text-align: center;
+}
+*/
+
+#main {
+    margin: 0px 30px 0px 30px;;
+    padding: 5px 5px 5px 5px;    
 }
