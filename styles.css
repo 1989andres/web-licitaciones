@@ -1,10 +1,10 @@
 /* Aún no visto como relacionarlo con el index.html */
 
 /* probando crear una rama */
-#header {
+#headers {
     background-color: #16a9bd;
-    font-size: 17px;
-    color: #3f110eea;
+    font-size: 50px;
+    color: #160504ea;
     margin: 0px 30px 0px 30px;;
     padding: 10px 20px 10px 20px;
     text-align: center;
@@ -13,7 +13,7 @@
 
 #footer {
     background-color: #16a9bd;
-    color: #3f110eea;
+    color: #160504ea;
     margin: 0px 30px 0px 30px;
     padding: 10px 20px 10px 20px;
     font-size: 10px;
