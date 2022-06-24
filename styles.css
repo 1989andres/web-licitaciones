@@ -1,10 +1,16 @@
 html,
 body {
-  min-width: 290px;
-  color: #4d4e53;
-  background-color: #ffffff;
-  font-family: 'Open Sans', Arial, sans-serif;
-  line-height: 1.5;
+    min-width: 290px;
+    color: #4d4e53;
+    background-color: #ffffff;
+    font-family: 'Open Sans', Arial, sans-serif;
+    line-height: 1.5;
+}
+
+a {
+    color: #4d4e53;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 p {
@@ -23,22 +29,20 @@ header {
     text-align: center;
     font-size: 1.1em;
     font-weight: thin;
-    background-color: rgb(223, 236, 236);
-    width:auto;
+    width: auto;
     padding: 0.02px;
     margin: 0;
-    border-style: groove;
-  }
+}
 
 #main-doc {
-    margin-left: 252px;
+    margin-left: 290px;
     top: 0px;
 }
 
 
 #navbar {
     position: fixed;
-    min-width: 252px;
+    min-width: 290px;
     left: 0px;
     width: 100px;
     height: 100%;
@@ -48,8 +52,21 @@ header {
     list-style-type: none;
 }
 
+
+
 #navbar li {
-    list-style-type: none;
+    list-style: none;
+}
+
+#navbar a {
+    display: block;
+    color: #4d4e53;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.link-span {
+    font-size: smaller;
 }
 
 .listas-article {
