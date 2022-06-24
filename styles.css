@@ -7,6 +7,16 @@ body {
   line-height: 1.5;
 }
 
+p {
+    font-family: 'Cabin', sans-serif;
+}
+
+#nav-header {
+    margin-top: 35px;
+    background-color: white;
+    border-style: none;
+}
+
 header {
     color: black;
     margin: 10px;
@@ -15,24 +25,28 @@ header {
     font-weight: thin;
     background-color: rgb(223, 236, 236);
     width:auto;
-    padding: 0;
+    padding: 0.02px;
     margin: 0;
+    border-style: groove;
   }
 
 #main-doc {
     margin-left: 252px;
+    top: 0px;
 }
+
 
 #navbar {
     position: fixed;
     min-width: 252px;
-    top: 0px;
     left: 0px;
     width: 100px;
     height: 100%;
     border-right: solid;
     border-color: rgba(0, 22, 22, 0.4);
-  }
+    top: 0px;
+    list-style-type: none;
+}
 
 #navbar li {
     list-style-type: none;
