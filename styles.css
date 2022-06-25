@@ -1,5 +1,13 @@
-/* Aún no visto como relacionarlo con el index.html */
+html,
+body {
+    min-width: 290px;
+    color: #4d4e53;
+    background-color: #ffffff;
+    font-family: 'Open Sans', Arial, sans-serif;
+    line-height: 1.5;
+}
 
+<<<<<<< HEAD
 /* probando crear una rama */
 #headers {
     background-color: #16a9bd;
@@ -7,10 +15,36 @@
     color: #160504ea;
     margin: 0px 30px 0px 30px;;
     padding: 10px 20px 10px 20px;
-    text-align: center;
-    font-style: italic;
+=======
+a {
+    color: #4d4e53;
+    text-decoration: none;
+    cursor: pointer;
 }
 
+p {
+    font-family: 'Cabin', sans-serif;
+}
+
+#nav-header {
+    margin-top: 35px;
+    background-color: white;
+    border-style: none;
+}
+
+header {
+    color: black;
+    margin: 10px;
+>>>>>>> 993589bf0cbe1f0c43653d0f39745731e88df1a2
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: thin;
+    width: auto;
+    padding: 0.02px;
+    margin: 0;
+}
+
+<<<<<<< HEAD
 #footer {
     background-color: #16a9bd;
     color: #160504ea;
@@ -37,4 +71,47 @@
 #main {
     margin: 0px 30px 0px 30px;;
     padding: 5px 5px 5px 5px;    
+=======
+#main-doc {
+    margin-left: 290px;
+    top: 0px;
+}
+
+
+#navbar {
+    position: fixed;
+    min-width: 290px;
+    left: 0px;
+    width: 100px;
+    height: 100%;
+    border-right: solid;
+    border-color: rgba(0, 22, 22, 0.4);
+    top: 0px;
+    list-style-type: none;
+}
+
+
+
+#navbar li {
+    list-style: none;
+}
+
+#navbar a {
+    display: block;
+    color: #4d4e53;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.link-span {
+    font-size: smaller;
+}
+
+.listas-article {
+    list-style-type: square;
+}
+
+.listas-article li {
+    margin-bottom: 12px;
+>>>>>>> 993589bf0cbe1f0c43653d0f39745731e88df1a2
 }
