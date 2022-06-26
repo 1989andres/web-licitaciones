@@ -1,29 +1,39 @@
-/*Reasignar y asignar las clases para prescindir de los id al momento de aplicare estilo.*/
-
-
-
-
-
-
-
-
-
-
-/*
 html,
 body {
     min-width: 290px;
     color: #4d4e53;
     background-color: #ffffff;
-    font-family: 'Open Sans', Arial, sans-serif;
     line-height: 1.5;
 }
 
-a {
+.bold-content { /*Negrita en párrafos*/
+    font-weight: bold;
+    color: black;
+}
+
+.main-header { /*Estilo de los headers*/
+    color: black;
+    margin: 10px;
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: thin;
+    width: auto;
+    padding: 0.02px;
+    margin: 0;
+}
+
+
+.nav-link { /*Estilo de los anchors de la nav bar*/
     color: #4d4e53;
     text-decoration: none;
     cursor: pointer;
 }
+
+.ul-nav {   /*Estilo de lista de la nav bar*/
+    list-style-type: none;
+}
+
+/*
 
 p {
     font-family: 'Cabin', sans-serif;
@@ -35,16 +45,7 @@ p {
     border-style: none;
 }
 
-header {
-    color: black;
-    margin: 10px;
-    text-align: center;
-    font-size: 1.1em;
-    font-weight: thin;
-    width: auto;
-    padding: 0.02px;
-    margin: 0;
-}
+
 
 #main-doc {
     margin-left: 290px;
