@@ -40,7 +40,8 @@ body {
 .p-content, 
 .listas-article, 
 .subtitulo-h4,
-.subtitulo-h2 {
+.subtitulo-h2,
+.nav-bar {
     font-family: 'Cabin', sans-serif;
 }
 
