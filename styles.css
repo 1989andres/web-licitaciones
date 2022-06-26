@@ -29,15 +29,24 @@ body {
     cursor: pointer;
 }
 
+.nav-sub-link-span {
+    font-size: smaller;
+}
+
 .ul-nav {   /*Estilo de lista de la nav bar*/
     list-style-type: none;
 }
 
-/*
-
-p {
+.p-content, 
+.listas-article, 
+.subtitulo-h4,
+.subtitulo-h2 {
     font-family: 'Cabin', sans-serif;
 }
+
+/*
+
+
 
 #nav-header {
     margin-top: 35px;
@@ -76,10 +85,6 @@ p {
     color: #4d4e53;
     text-decoration: none;
     cursor: pointer;
-}
-
-.link-span {
-    font-size: smaller;
 }
 
 .listas-article {
