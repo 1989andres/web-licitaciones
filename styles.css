@@ -79,10 +79,6 @@ body {
 
 #navbar li {
     list-style: none;
-    border-bottom-color: #4d4e53;
-    border-bottom: groove;
-    border-bottom-width: 2px;
-
 }
 
 #navbar a {
@@ -90,7 +86,6 @@ body {
     color: #4d4e53;
     text-decoration: none;
     cursor: pointer;
-
 }
 
 .listas-article {
@@ -100,8 +95,5 @@ body {
 .listas-article li {
     margin-bottom: 12px;
 }
-<<<<<<< HEAD
-=======
 
 */
->>>>>>> 7bbeaa1ec2d4e3a74694b9ac833080b3ebb3e730
