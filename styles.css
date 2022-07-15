@@ -3,27 +3,15 @@ body {
     min-width: 290px;
     color: #4d4e53;
     background-color: #ffffff;
-    font-family: 'Open Sans', Arial, sans-serif;
     line-height: 1.5;
 }
 
-a {
-    color: #4d4e53;
-    text-decoration: none;
-    cursor: pointer;
+.bold-content { /*Negrita en párrafos*/
+    font-weight: bold;
+    color: black;
 }
 
-p {
-    font-family: 'Cabin', sans-serif;
-}
-
-#nav-header {
-    margin-top: 35px;
-    background-color: white;
-    border-style: none;
-}
-
-header {
+.main-header { /*Estilo de los headers*/
     color: black;
     margin: 10px;
     text-align: center;
@@ -33,6 +21,41 @@ header {
     padding: 0.02px;
     margin: 0;
 }
+
+
+.nav-link { /*Estilo de los anchors de la nav bar*/
+    color: #4d4e53;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.nav-sub-link-span {
+    font-size: smaller;
+}
+
+.ul-nav {   /*Estilo de lista de la nav bar*/
+    list-style-type: none;
+}
+
+.p-content, 
+.listas-article, 
+.subtitulo-h4,
+.subtitulo-h2,
+.nav-bar {
+    font-family: 'Cabin', sans-serif;
+}
+
+/*
+
+
+
+#nav-header {
+    margin-top: 35px;
+    background-color: white;
+    border-style: none;
+}
+
+
 
 #main-doc {
     margin-left: 290px;
@@ -70,10 +93,6 @@ header {
 
 }
 
-.link-span {
-    font-size: smaller;
-}
-
 .listas-article {
     list-style-type: square;
 }
@@ -81,3 +100,8 @@ header {
 .listas-article li {
     margin-bottom: 12px;
 }
+<<<<<<< HEAD
+=======
+
+*/
+>>>>>>> 7bbeaa1ec2d4e3a74694b9ac833080b3ebb3e730
