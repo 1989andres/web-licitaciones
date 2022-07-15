@@ -56,6 +56,10 @@ header {
 
 #navbar li {
     list-style: none;
+    border-bottom-color: #4d4e53;
+    border-bottom: groove;
+    border-bottom-width: 2px;
+
 }
 
 #navbar a {
@@ -63,6 +67,7 @@ header {
     color: #4d4e53;
     text-decoration: none;
     cursor: pointer;
+
 }
 
 .link-span {
